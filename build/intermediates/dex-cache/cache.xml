@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/aupadhyay/5MobileAds/app/build/intermediates/exploded-aar/com.android.support/design/24.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.0"
+        sha1="e195bd694d5389acfba27ff4fdfa64c4c65b2c05">
+        <dex dex="/home/aupadhyay/5MobileAds/app/build/intermediates/pre-dexed/debug/com.android.support-design-24.1.1_183d4d29b3813328bf54c10cbb3b3b64d56798d4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/aupadhyay/5MobileAds/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.0"
+        sha1="fa93850f7bba435d80fd179230aebaaf76106aac">
+        <dex dex="/home/aupadhyay/5MobileAds/app/build/intermediates/pre-dexed/debug/instant-run_310c37056e64ddbb37cdd714a92aa8c22f692057.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/aupadhyay/5MobileAds/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.0"
+        sha1="f833fb1ae3b67ce6e188a93646d426d40e34a577">
+        <dex dex="/home/aupadhyay/5MobileAds/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_34516c0859a43764a1d8f476941c00d5cb818246.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/aupadhyay/5MobileAds/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.0"
+        sha1="1256c10604bb098490eab070d76754ac5ceab35c">
+        <dex dex="/home/aupadhyay/5MobileAds/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-24.1.1_76f6dfa641233cab21725171dce09998c7c46f61.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/aupadhyay/5MobileAds/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.0"
+        sha1="c936c1bd42f0c018c18920c7bec619ef056b24f8">
+        <dex dex="/home/aupadhyay/5MobileAds/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-24.1.1_5995fafc57ef6d11ea8810719e0e64b0a7c2fa99.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/aupadhyay/5MobileAds/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.0"
+        sha1="787871951412550519b0222aba3c9df4cea49875">
+        <dex dex="/home/aupadhyay/5MobileAds/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-24.1.1_e3c7fd8800d082210528a8a9705ffc109bc82013.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/aupadhyay/5MobileAds/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/jars/libs/internal_impl-24.1.1.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.0"
+        sha1="f78c2f395cb096f9dc1dc07e729922b8fcd3c4f5">
+        <dex dex="/home/aupadhyay/5MobileAds/app/build/intermediates/pre-dexed/debug/internal_impl-24.1.1_225e8cca5fe938a31e9967480ca931a01990c7fc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/aupadhyay/5MobileAds/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.0"
+        sha1="6d7d803871e3203465f71a163e7af104f807b446">
+        <dex dex="/home/aupadhyay/5MobileAds/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.1.1_4cfc80e2cb5cab66bc06b5c9105c207261854c88.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/aupadhyay/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/24.1.1/support-annotations-24.1.1.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.0"
+        sha1="3af19f153122737b372622fa6c81dd11a1c6b999">
+        <dex dex="/home/aupadhyay/5MobileAds/app/build/intermediates/pre-dexed/debug/support-annotations-24.1.1_7dbec0981c54842b09badf0b92c284ce56e7d29b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/aupadhyay/5MobileAds/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.0"
+        sha1="f62e763609f65e47dc6c498760a4accf02776788">
+        <dex dex="/home/aupadhyay/5MobileAds/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-24.1.1_432628b27cb5470256ac0a13525fa8423b6f0e74.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/aupadhyay/5MobileAds/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/24.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.0"
+        sha1="4add8aa95c9f4e9a2ad64b7e2bf08e97e28955c1">
+        <dex dex="/home/aupadhyay/5MobileAds/app/build/intermediates/pre-dexed/debug/com.android.support-cardview-v7-24.1.1_b8e30178a72c94cefd24abc454ade226b155488f.jar" />
+    </item>
+
+</items>

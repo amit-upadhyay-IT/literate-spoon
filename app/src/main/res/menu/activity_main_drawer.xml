@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home_id"
+            android:icon="@android:drawable/presence_online"
+            android:title="HOME" />
+        <item
+            android:id="@+id/profile_id"
+            android:icon="@android:drawable/picture_frame"
+            android:title="Profile" />
+        <item
+            android:id="@+id/cart_id"
+            android:icon="@android:drawable/btn_star_big_on"
+            android:title="Cart" />
+        <item
+            android:id="@+id/feedback_id"
+            android:icon="@android:drawable/ic_menu_compass"
+            android:title="Feedback" />
+        <item
+            android:id="@+id/notifications_id"
+            android:icon="@android:drawable/stat_notify_more"
+            android:title="Notifications" />
+        <item
+            android:id="@+id/share_id"
+            android:icon="@android:drawable/ic_menu_share"
+            android:title="Share App" />
+    </group>
+
+    <item android:title="Get Rewards">
+        <menu>
+            <item
+                android:id="@+id/nav_share_app"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share App" />
+            <item
+                android:id="@+id/nav_loyalty_points"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Loyalty Points" />
+        </menu>
+    </item>
+
+</menu>
