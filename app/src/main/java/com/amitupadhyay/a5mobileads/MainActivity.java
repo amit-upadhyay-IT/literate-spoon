@@ -1,5 +1,6 @@
 package com.amitupadhyay.a5mobileads;
 
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
@@ -9,6 +10,7 @@ import android.support.v4.view.GravityCompat;
 import android.support.v4.view.ViewPager;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
@@ -23,7 +25,38 @@ import com.amitupadhyay.a5mobileads.fragments.TrendingFragment;
 import com.amitupadhyay.a5mobileads.nav_activitiy.FeedbackActivity;
 
 public class MainActivity extends AppCompatActivity
-        implements NavigationView.OnNavigationItemSelectedListener {
+        implements NavigationView.OnNavigationItemSelectedListener, DialogInterface.OnClickListener {
+
+    AlertDialog.Builder builder;
+    AlertDialog dialog;
+
+    public void showAlertDialog()
+    {
+        builder = new AlertDialog.Builder(this);
+        builder.setTitle("Please Confirm !");
+        builder.setMessage("Do you want to exit?");
+
+        builder.setPositiveButton("YES", this);
+        builder.setNegativeButton("NO", this);
+
+        dialog = builder.create();
+
+        dialog.show();
+    }
+
+    @Override
+    public void onClick(DialogInterface dialogInterface, int i) {
+        switch (i)
+        {
+            case DialogInterface.BUTTON_POSITIVE:
+                finish();
+                break;
+            case DialogInterface.BUTTON_NEGATIVE:
+                if (dialog.isShowing())
+                    dialog.dismiss();
+                break;
+        }
+    }
 
     private TabLayout tabLayout;
     private ViewPager viewPager;
@@ -72,7 +105,7 @@ public class MainActivity extends AppCompatActivity
         if (drawer.isDrawerOpen(GravityCompat.START)) {
             drawer.closeDrawer(GravityCompat.START);
         } else {
-            super.onBackPressed();
+            showAlertDialog();
         }
     }
 
