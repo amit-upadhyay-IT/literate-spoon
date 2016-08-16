@@ -3,6 +3,33 @@
 
     <item
         is-multidex="false"
+        jar="/home/aupadhyay/5MobileAds/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.0"
+        sha1="1256c10604bb098490eab070d76754ac5ceab35c">
+        <dex dex="/home/aupadhyay/5MobileAds/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-24.1.1_76f6dfa641233cab21725171dce09998c7c46f61.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/aupadhyay/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit/retrofit/1.9.0/a681c044244d9fc375198588297a39ba78028423/retrofit-1.9.0.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.0"
+        sha1="a681c044244d9fc375198588297a39ba78028423">
+        <dex dex="/home/aupadhyay/5MobileAds/app/build/intermediates/pre-dexed/debug/retrofit-1.9.0_cfb3bd99ec92a55d32e12147f1cb4d999b2f6af6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/aupadhyay/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/24.1.1/support-annotations-24.1.1.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.0"
+        sha1="3af19f153122737b372622fa6c81dd11a1c6b999">
+        <dex dex="/home/aupadhyay/5MobileAds/app/build/intermediates/pre-dexed/debug/support-annotations-24.1.1_7dbec0981c54842b09badf0b92c284ce56e7d29b.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/home/aupadhyay/5MobileAds/app/build/intermediates/exploded-aar/com.android.support/design/24.1.1/jars/classes.jar"
         jumboMode="true"
         optimize="false"
@@ -25,17 +52,8 @@
         jumboMode="true"
         optimize="false"
         revision="24.0.0"
-        sha1="f833fb1ae3b67ce6e188a93646d426d40e34a577">
+        sha1="721ec3c8f4423378e184f713316bc736cecb5a12">
         <dex dex="/home/aupadhyay/5MobileAds/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_34516c0859a43764a1d8f476941c00d5cb818246.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/aupadhyay/5MobileAds/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="false"
-        revision="24.0.0"
-        sha1="1256c10604bb098490eab070d76754ac5ceab35c">
-        <dex dex="/home/aupadhyay/5MobileAds/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-24.1.1_76f6dfa641233cab21725171dce09998c7c46f61.jar" />
     </item>
     <item
         is-multidex="false"
@@ -66,6 +84,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="/home/aupadhyay/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.0/7ff0e000d1e27e356567f56c92af3b8ab912636f/picasso-2.5.0.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.0"
+        sha1="7ff0e000d1e27e356567f56c92af3b8ab912636f">
+        <dex dex="/home/aupadhyay/5MobileAds/app/build/intermediates/pre-dexed/debug/picasso-2.5.0_19057a3052b6d63787cd53bd57d62e494b771876.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/home/aupadhyay/5MobileAds/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/jars/classes.jar"
         jumboMode="true"
         optimize="false"
@@ -75,12 +102,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="/home/aupadhyay/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/24.1.1/support-annotations-24.1.1.jar"
+        jar="/home/aupadhyay/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3.1/ecb6e1f8e4b0e84c4b886c2f14a1500caf309757/gson-2.3.1.jar"
         jumboMode="true"
         optimize="false"
         revision="24.0.0"
-        sha1="3af19f153122737b372622fa6c81dd11a1c6b999">
-        <dex dex="/home/aupadhyay/5MobileAds/app/build/intermediates/pre-dexed/debug/support-annotations-24.1.1_7dbec0981c54842b09badf0b92c284ce56e7d29b.jar" />
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="/home/aupadhyay/5MobileAds/app/build/intermediates/pre-dexed/debug/gson-2.3.1_610854994ce2b9e1e067fa1e942370c437e48ff9.jar" />
     </item>
     <item
         is-multidex="false"

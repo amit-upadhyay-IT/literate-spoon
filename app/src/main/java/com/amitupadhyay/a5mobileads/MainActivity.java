@@ -22,6 +22,7 @@ import com.amitupadhyay.a5mobileads.fragments.HomeFragment;
 import com.amitupadhyay.a5mobileads.fragments.MediaFragment;
 import com.amitupadhyay.a5mobileads.fragments.RealEstateFragment;
 import com.amitupadhyay.a5mobileads.fragments.TrendingFragment;
+import com.amitupadhyay.a5mobileads.myadapters.ViewPagerAdapter;
 import com.amitupadhyay.a5mobileads.nav_activitiy.FeedbackActivity;
 
 public class MainActivity extends AppCompatActivity
@@ -135,6 +136,7 @@ public class MainActivity extends AppCompatActivity
             Intent intent = new Intent(Intent.ACTION_DIAL);
             intent.setData(Uri.parse(uri));
             startActivity(intent);
+            overridePendingTransition( R.anim.slide_in_up, R.anim.slide_out_up );// this will Open the Activity from Bottom to Up.
             return true;
         }
 
@@ -170,6 +172,26 @@ public class MainActivity extends AppCompatActivity
         else if (id == R.id.share_id)
         {
 
+        }
+        else if (id == R.id.nav_trending_tab)
+        {
+            viewPager.setCurrentItem(1);
+        }
+        else if (id == R.id.nav_media_tab)
+        {
+            viewPager.setCurrentItem(2);
+        }
+        else if (id == R.id.nav_entertainment_tab)
+        {
+            viewPager.setCurrentItem(3);
+        }
+        else if (id == R.id.nav_realestate_tab)
+        {
+            viewPager.setCurrentItem(4);
+        }
+        else if (id == R.id.nav_education_tab)
+        {
+            viewPager.setCurrentItem(5);
         }
         else if (id == R.id.nav_share_app)
         {

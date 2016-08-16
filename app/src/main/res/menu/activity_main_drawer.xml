@@ -28,6 +28,32 @@
             android:title="Share App" />
     </group>
 
+    <item android:title="Categories">
+        <menu>
+            <item
+                android:id="@+id/nav_trending_tab"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Trending" />
+            <item
+                android:id="@+id/nav_media_tab"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Media" />
+            <item
+                android:id="@+id/nav_entertainment_tab"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Entertainment" />
+            <item
+                android:id="@+id/nav_realestate_tab"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Real Estate" />
+            <item
+                android:id="@+id/nav_education_tab"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Education" />
+
+        </menu>
+    </item>
+
     <item android:title="Get Rewards">
         <menu>
             <item
